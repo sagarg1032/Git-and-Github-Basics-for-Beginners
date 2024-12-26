@@ -127,8 +127,6 @@ A comprehensive guide to understanding and working with Git and GitHub for versi
    git push origin main # Authorize VS code to push the changes on Github
    ```
 
----
-
 ### Conclusion: Basic Workflow
 
 The basic Git workflow involves the following steps:
