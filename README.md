@@ -5,20 +5,21 @@ A comprehensive guide to understanding and working with Git and GitHub for versi
 ---
 
 ## Table of Contents
-1. [Creating a Repository on GitHub](#creating-a-repository-on-github)
-2. [Setting Up Git](#setting-up-git)
-3. [Cloning and Managing Repositories](#cloning-and-managing-repositories)
-4. [Staging, Committing, and Pushing Changes](#staging-committing-and-pushing-changes)
-5. [Initializing a Local Repository](#initializing-a-local-repository)
-6. [Working with Branches](#working-with-branches)
-7. [Merging Branches](#merging-branches)
-8. [Resolving Merge Conflicts](#resolving-merge-conflicts)
-9. [Undoing Changes](#undoing-changes)
-10. [Forking Repositories](#forking-repositories)
+1. [Creating a Repository on GitHub](#1-creating-a-repository-on-github)
+2. [Setting Up Git](#2-setting-up-git)
+3. [Cloning and Managing Repositories](#3-cloning-and-managing-repositories)
+4. [Staging, Committing, and Pushing Changes](#4-staging-committing-and-pushing-changes)
+5. [Initializing a Local Repository](#5-initializing-a-local-repository)
+6. [Working with Branches](#6-working-with-branches)
+7. [Merging Branches](#7-merging-branches)
+8. [Resolving Merge Conflicts](#8-resolving-merge-conflicts)
+9. [Undoing Changes](#9-undoing-changes)
+10. [Forking Repositories](#10-forking-repositories)
+11. [Acknowledgments](#11-acknowledgments)
 
 ---
 
-## 1. Creating a Repository on GitHub
+## 1. Creating a Repository on GitHub 
 
 1. Log in to your GitHub account and click on the **New** button to create a new repository.
 2. Enter a repository name.
@@ -297,3 +298,8 @@ Forking creates a copy of a repository in your GitHub account.
 3. Select branches to include (optional).
 4. Click **Create Fork**.
 5. Use a pull request to propose changes to the original repository.
+
+---
+
+## 11. Acknowledgments
+This guide was inspired by the video "[Complete Git and GitHub Tutorial for Beginners](https://www.youtube.com/watch?v=Ez8F0nW6S-w)" by [Apna College - Author (Shraddha Khapra)](https://www.youtube.com/@ApnaCollegeOfficial). Check out their channel for more amazing content!
