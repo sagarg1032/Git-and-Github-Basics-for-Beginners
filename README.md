@@ -16,6 +16,7 @@ A comprehensive guide to understanding and working with Git and GitHub for versi
 9. [Undoing Changes](#9-undoing-changes)
 10. [Forking Repositories](#10-forking-repositories)
 11. [Acknowledgments](#11-acknowledgments)
+12. [Contributions](#12-contributions)
 
 ---
 
@@ -175,7 +176,28 @@ The basic Git workflow involves the following steps:
    git branch -M main
    ```
 
-5. **Push the local repository to GitHub:**
+5. **Check the status of your repository:**
+   ```bash
+   git status
+   ```
+
+6. **Stage your changes:**
+   ```bash
+   git add <file-name>
+   git add . # To stage multiple files
+   ```
+
+7. **Commit your changes:**
+   ```bash
+   git commit -m "Add a meaningful commit message"
+   ```
+
+8. **Push the repository to GitHub:**
+   ```bash
+   git push -u origin main
+   ```
+
+9. **Push the local repository to GitHub:**
    ```bash
    git push -u origin main
    ```
@@ -183,7 +205,12 @@ The basic Git workflow involves the following steps:
    ```bash
    git push
    ```
-6. **Check all commits:**
+   *(OR Type:)*
+   ```bash
+   git push origin main #One drawback of this is you need to type it each time
+   ```
+
+10. **Check all commits:**
     ```bash
     git log
     ```
@@ -301,3 +328,6 @@ Forking creates a copy of a repository in your GitHub account.
 
 ## 11. Acknowledgments
 This guide was inspired by the video "[Complete Git and GitHub Tutorial for Beginners](https://www.youtube.com/watch?v=Ez8F0nW6S-w)" by [Apna College - Author (Shraddha Khapra)](https://www.youtube.com/@ApnaCollegeOfficial). Check out their channel for more amazing content!
+
+## 12. Contributions
+Contributions are welcome! Feel free to open issues or submit pull requests.
